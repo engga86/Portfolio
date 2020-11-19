@@ -12,87 +12,189 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <link rel="icon" href="image/iconmonstr-code-2-240.png">
+    <link rel="icon" href="image/HH_icon.png">
 </head>
 
 <body>
-    <main id="container">
-        <nav id="navbar">
-            <div class="nav-center">
-                <div id="home">
-                    <span class="nav-head">Home</span>
-                    <input type="checkbox" class="checkbox" id="checkbox-home" checked>
-                    <label for="checkbox-home" class="label">
-                        <i class="fas fa-lightbulb"></i>
-                        <i class="far fa-lightbulb"></i>
-                        <div class="ball"></div>
-                    </label>
-                </div>
-                <div id="about">
-                    <span class="nav-head">About</span>
-                    <input type="checkbox" class="checkbox" id="checkbox-about">
-                    <label for="checkbox-about" class="label">
-                        <i class="fas fa-lightbulb"></i>
-                        <i class="far fa-lightbulb"></i>
-                        <div class="ball"></div>
-                    </label>
-                </div>
-                <div id="project">
-                    <span class="nav-head long">Project</span>
-                    <input type="checkbox" class="checkbox" id="checkbox-project">
-                    <label for="checkbox-project" class="label">
-                        <i class="fas fa-lightbulb"></i>
-                        <i class="far fa-lightbulb"></i>
-                        <div class="ball"></div>
-                    </label>
-                </div>
-                <div id="contact">
-                    <span class="nav-head long">Contact</span>
-                    <input type="checkbox" class="checkbox" id="checkbox-contact">
-                    <label for="checkbox-contact" class="label">
-                        <i class="fas fa-lightbulb"></i>
-                        <i class="far fa-lightbulb"></i>
-                        <div class="ball"></div>
-                    </label>
-                </div>
-            </div>
-        </nav>
+    <section id="top"></section>
 
-        <div id="container-home">
-            <div class="contants highFreq contant-border">
-                <div class="contants2 contant-name">
-                    <span class="hf highFreq">&thinsp;H<span class="fl2 flicker2">i</span>, I'm</span>
+    <!-- Start Nav -->
+    <nav id="navbar">
+        <div id="icon-hh">
+            <img src="image/HH_icon.png" alt="logo-icon">
+        </div>
+        <ul class="nav-list">
+            <li>
+                <a href="#about" class="nav-link">
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="#project" class="nav-link">
+                    Projects
+                </a>
+            </li>
+            <li>
+                <a href="#contact" class="nav-link">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Welcome Page -->
+    <section id="about">
+        <div id="welcome-header">
+            <div class="contants highFreq">
+                <div class="contant-name">
+                    <span class="highFreq">&thinsp;H<span class="fl2 flicker2">i</span>, I'm</span>
                     <span class="highFreq">&thinsp;H<span class="flicker">e</span>n<span class="flicker2">r</span>y
-                        <!-- <span class="flicker">H</span>on<span class="flicker2">g</span></span> -->
+                        <span class="flicker">H</span>on<span class="flicker2">g</span></span>
+                </div>
+            </div>
+            <div class="sub-contant">
+                <span style="color: rgb(245, 179, 242)">A <span class="flicker3" id="wordType">Front</span>-<span
+                        class="flicker4">End</span> Developer.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Page -->
+    <section id="project">
+        <div id="project-header">
+            <h2>These <span class="flicker3">are</span> some of my <span class="flicker">Pro<span
+                        class="flicker2">j</span>ect<span class="flicker4">s</span></span></h2>
+        </div>
+
+        <div class="project-grid">
+            <div class="project-box">
+                <p class="project-detail">Guess rgb code of the color</p>
+                <img src="image/Color.png" alt="color-game" class="project-image">
+
+                <div class="project-link">
+                    <a href="https://engga86.github.io/Color-Guess/color.html" class="project-tile" target="_blank">
+                        <p><span class="code">
+                                 Color Game </span></p>
+                    </a>
+                    <a href="https://github.com/engga86/Color-Guess" target="_blank">
+                        <p><span class="code">
+                                 View Code (JS)</span></p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <p class="project-detail">Keyboard that makes sounds</p>
+                <img src="image/Music.png" alt="music-player" class="project-image">
+
+                <div class="project-link">
+                    <a href="https://engga86.github.io/Keyboard-Sounds/Soundkit/index.html" class="project-tile"
+                        target="_blank">
+                        <p><span class="code">
+                                 Random Music Keyboard 
+                            </span></p>
+                    </a>
+                    <a href="https://github.com/engga86/Keyboard-Sounds" target="_blank">
+                        <p><span class="code">
+                                 View Code (JS)</span></p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <p class="project-detail">Todo list, current time and time of addition</p>
+                <img src="image/Todo.png" alt="Simple-Todo-List" class="project-image">
+
+                <div class="project-link">
+                    <a href="https://engga86.github.io/Simple-Todo-List/index.html" class="project-tile"
+                        target="_blank">
+                        <p><span class="code">
+                                 Simple Todo List </span></p>
+                    </a>
+                    <a href="https://github.com/engga86/Simple-Todo-List" target="_blank">
+                        <p><span class="code">
+                                 View Code (JS)</span></p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <p class="project-detail">Tile Renovation Company</p>
+                <img src="image/beverly.png" alt="project" class="project-image">
+
+                <div class="project-link">
+                    <a href="https://www.thebeverly.com.au/" class="project-tile" target="_blank">
+                        <p><span class="code">
+                                 Beverly Pty Ltd </span></p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <p class="project-detail">Landing page of a game</p>
+                <img src="image/critaz.png" alt="project" class="project-image">
+
+                <div class="project-link">
+                    <a href="https://www.critaz.online/" class="project-tile" target="_blank">
+                        <p><span class="code">
+                                 Critaz Online </span></p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <p class="project-detail">Unity 3D game</p>
+                <img src="image/skip.png" alt="SkipSail" class="project-image">
+
+                <div class="project-link">
+                    <a href="https://play.google.com/store/apps/details?id=com.Critaz.ShipSail" class="project-tile"
+                        target="_blank">
+                        <p><span class="code">
+                                 Ship Sail </span></p>
+                    </a>
+                    <a href="https://github.com/engga86/SkipSail" target="_blank">
+                        <p><span class="code">
+                                 View Code </span></p>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="contants3 sub-contant">
-            <span style="color: rgb(245, 179, 242)">Let's bring your <span class="flicker3"
-                    id="wordType">imagination</span> into <span class="flicker4">reality</span> together.</span>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="contact-header">
+            <h2 class="highFreq">Let's build together...</h2>
+            <p><span class="flicker3">Coff<span class="flicker4">e</span>e</span> is always <span class="flicker2">Go</span>od<span class="flicker4">!</span></p>
         </div>
-        <div class="about-contant">
-            <div class="about-container">
-                <div id="logo-h">
-                    <span id="logo-qu">" "</span>
-                    <span id="logo-top">H</span>
-                    <span id="logo-bot">H</span>
-                </div>
-                <div id="about-me">
-                    <p>Associates Degree in Applied Information Technology graduate (pending final results) for the past two
-                        years, patient and concise individual keen to utilise the skills I have learnt in a real-world
-                        setting. I am self-motivated and like to challenge myself to grow and improve my skills.</p>
-                </div>
-            </div>
+        <div class="contact-link">
+            <a class="contact-details" href="https://github.com/engga86" target="_blank">
+                <i class="fab fa-github">
+                    GitHub
+                </i>
+            </a>
+            <a class="contact-details" href="mailto:contact@henry-hong.online">
+                <i class="fas fa-at">
+                    Email
+                </i>
+            </a>
+            <a class="contact-details" href="tel:0432807791">
+                <i class="fas fa-mobile-alt">
+                    Phone
+                </i>
+            </a>
+            <a class="contact-details" href="image/Henry Hong.pdf" download="Henry_Hong_CV">
+                <i class="fas fa-file-download">
+                    Download CV
+                </i>
+            </a>
         </div>
-        <div class="project-contant"></div>
-        <div class="contact-contant"></div>
-        <div class="slider"></div>
-    </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
-        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
-        crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    </section>
+    <!-- <div id="move-top">
+        <a href="#top">
+            <i class="far fa-arrow-alt-circle-up"></i>
+        </a>
+    </div> -->
 </body>
 
 </html>
