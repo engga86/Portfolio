@@ -6,4 +6,3 @@ Portfolio site
 
  * HTML
  * CSS
- * JS
