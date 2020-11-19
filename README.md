@@ -6,4 +6,5 @@ Portfolio site
 
  * HTML
  * CSS
- * JS
+
+[View](https://engga86.github.io/Portfolio/)
