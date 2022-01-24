@@ -7,5 +7,5 @@ Portfolio site
  * HTML
  * CSS
 
-[Portfolio](https://engga86.github.io/Simple-Todo-List/index.html)
+[Portfolio](https://engga86.github.io/Portfolio/index.html)
 
